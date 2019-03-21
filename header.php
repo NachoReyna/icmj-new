@@ -20,7 +20,9 @@
 		<?php wp_head(); ?>
 	</head>
 	<body id="JaponSite">
-		<header>
+	<section id="section-header-banner" class="rocknsidebanner" style="background-image:url('https://via.placeholder.com/1280x350')">
+  </section>
+		<header id="header" class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +32,19 @@
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="#">Cursos <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
+								<a class="nav-link" href="#">Instituto</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link disabled" href="#">Disabled</a>
+								<a class="nav-link" href="#">Noticias</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Galería</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacto</a>
 							</li>
 						</ul>
 					</div>
