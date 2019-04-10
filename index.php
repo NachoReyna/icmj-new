@@ -11,13 +11,13 @@
 <section id="section-comentarios">
    <?php include('include/page-comentarios.php'); ?>
 </section>
-<section id="section-comentarios">
+<section id="section-noticias">
    <?php include('include/page-noticias.php'); ?>
 </section>
-<section id="section-comentarios">
+<section id="section-contactanos">
    <?php include('include/page-contactanos.php'); ?>
 </section>
-<section id="section-comentarios">
+<section id="section-colaboradores">
    <?php include('include/page-colaboradores.php'); ?>
 </section>
 <?php get_footer();?>
